@@ -1,0 +1,18 @@
+*{
+    background-color: black;
+}
+
+.dis{
+    display: inline-block;
+    /*background: black;*/
+    color: gray;
+    padding: 10px 30px;
+    text-decoration:none ;
+    margin: 15px 15px;
+    text-align: center;
+}
+
+.dis:hover{
+    background: white;
+    color:black;
+}
