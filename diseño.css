@@ -1,10 +1,90 @@
+
+
 *{
-    background-color: black;
+    background-color: #020403;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+nav{
+    margin-top: 15px;
+    width: 100wh;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none; /*sin underline*/
+    color: gray;
+    padding: 10px 30px;
+    margin-inline: 15px;
+    
+}
+
+nav a:hover{
+    
+    background: white;
+    color:black;
+}
+
+.info-principal{
+    text-align: center;
+    display: block;
+    color: gray;
+    margin-block: 20px;
+}
+
+.info-principal img{
+    border-radius: 50%;
+}
+
+.info-principal svg{
+    margin: 20px;
+}
+
+.acerca-de{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-block: 20px;
+}
+
+.acerca-de p{
+    margin-inline: 30%;
+}
+
+.habilidades{
+    color:white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-block: 20px;
+}
+
+.habilidades div {
+    margin: 20px;
+}
+
+table {
+    color: gray;
+    table-layout: fixed;
+    width: 50%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 20px;
+    border-bottom: 2px solid gray;
+  }
+
+/*
 
 .dis{
     display: inline-block;
-    /*background: black;*/
+    background: black;
     color: gray;
     padding: 10px 30px;
     text-decoration:none ;
@@ -12,7 +92,4 @@
     text-align: center;
 }
 
-.dis:hover{
-    background: white;
-    color:black;
-}
+*/
